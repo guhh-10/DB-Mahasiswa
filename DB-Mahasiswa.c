@@ -87,7 +87,6 @@ int main() {
 
         printf("\nKembali ke menu? (y/n): ");
         scanf("%c", &lanjut);
-        clearInputBuffer();
         printf("\n");
 
     } while(lanjut == 'y' || lanjut == 'Y');
